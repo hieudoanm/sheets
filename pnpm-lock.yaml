@@ -26,12 +26,6 @@ importers:
       '@capacitor/ios':
         specifier: 8.0.0
         version: 8.0.0(@capacitor/core@8.0.0)
-      '@tanstack/react-query':
-        specifier: 5.90.16
-        version: 5.90.16(react@19.2.3)
-      jstoxml:
-        specifier: 7.0.1
-        version: 7.0.1
       next:
         specifier: 16.1.1
         version: 16.1.1(@babel/core@7.28.5)(babel-plugin-react-compiler@1.0.0)(react-dom@19.2.3(react@19.2.3))(react@19.2.3)
@@ -60,9 +54,6 @@ importers:
       '@types/jest':
         specifier: 30.0.0
         version: 30.0.0
-      '@types/jstoxml':
-        specifier: 5.0.0
-        version: 5.0.0
       '@types/node':
         specifier: 25.0.3
         version: 25.0.3
@@ -893,14 +884,6 @@ packages:
   '@tailwindcss/postcss@4.1.18':
     resolution: {integrity: sha512-Ce0GFnzAOuPyfV5SxjXGn0CubwGcuDB0zcdaPuCSzAa/2vII24JTkH+I6jcbXLb1ctjZMZZI6OjDaLPJQL1S0g==}
 
-  '@tanstack/query-core@5.90.16':
-    resolution: {integrity: sha512-MvtWckSVufs/ja463/K4PyJeqT+HMlJWtw6PrCpywznd2NSgO3m4KwO9RqbFqGg6iDE8vVMFWMeQI4Io3eEYww==}
-
-  '@tanstack/react-query@5.90.16':
-    resolution: {integrity: sha512-bpMGOmV4OPmif7TNMteU/Ehf/hoC0Kf98PDc0F4BZkFrEapRMEqI/V6YS0lyzwSV6PQpY1y4xxArUIfBW5LVxQ==}
-    peerDependencies:
-      react: ^18 || ^19
-
   '@tauri-apps/cli-darwin-arm64@2.9.6':
     resolution: {integrity: sha512-gf5no6N9FCk1qMrti4lfwP77JHP5haASZgVbBgpZG7BUepB3fhiLCXGUK8LvuOjP36HivXewjg72LTnPDScnQQ==}
     engines: {node: '>= 10'}
@@ -1051,9 +1034,6 @@ packages:
 
   '@types/json5@0.0.29':
     resolution: {integrity: sha512-dRLjCWHYg4oaA77cxO64oO+7JwCwnIzkZPdrrC71jQmQtlhM556pwKo5bUzqvZndkVbeFLIIi+9TC40JNF5hNQ==}
-
-  '@types/jstoxml@5.0.0':
-    resolution: {integrity: sha512-6W1oNiZ/frqtloQdjRm+UtZ0jioU4SMX7iU0OWistGQsr5nrrrhNs82O3Wa8csWKttCBifJTe+CDLFyzNkIOLQ==}
 
   '@types/node@25.0.3':
     resolution: {integrity: sha512-W609buLVRVmeW693xKfzHeIV6nJGGz98uCPfeXI1ELMLXVeKYZ9m15fAMSaUPBHYLGFsVRcMmSCksQOrZV9BYA==}
@@ -2472,9 +2452,6 @@ packages:
 
   jsonfile@6.2.0:
     resolution: {integrity: sha512-FGuPw30AdOIUTRMC2OMRtQV+jkVj2cfPqSeWXv1NEAJ1qZ5zb1X6z1mFhbfOB/iy3ssJCD+3KuZ8r8C3uVFlAg==}
-
-  jstoxml@7.0.1:
-    resolution: {integrity: sha512-yqCv6FoW1uTqtqO/wqQzvdRhVp+iIFwu153pLdSmJwlRRW3+eRWwfHjCE1E+06hB17s934iFDZI1GW0g4QvA8w==}
 
   jsx-ast-utils@3.3.5:
     resolution: {integrity: sha512-ZZow9HBI5O6EPgSJLUb8n2NKgmVWTwCvHGwFuJlMjvLFqlGG6pjirPhtdsseaLZjSibD8eegzmYpUZwoIlj2cQ==}
@@ -4534,13 +4511,6 @@ snapshots:
       postcss: 8.5.6
       tailwindcss: 4.1.18
 
-  '@tanstack/query-core@5.90.16': {}
-
-  '@tanstack/react-query@5.90.16(react@19.2.3)':
-    dependencies:
-      '@tanstack/query-core': 5.90.16
-      react: 19.2.3
-
   '@tauri-apps/cli-darwin-arm64@2.9.6':
     optional: true
 
@@ -4684,8 +4654,6 @@ snapshots:
   '@types/json-schema@7.0.15': {}
 
   '@types/json5@0.0.29': {}
-
-  '@types/jstoxml@5.0.0': {}
 
   '@types/node@25.0.3':
     dependencies:
@@ -6468,8 +6436,6 @@ snapshots:
       universalify: 2.0.1
     optionalDependencies:
       graceful-fs: 4.2.11
-
-  jstoxml@7.0.1: {}
 
   jsx-ast-utils@3.3.5:
     dependencies:
