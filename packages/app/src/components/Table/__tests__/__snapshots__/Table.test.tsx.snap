@@ -1,0 +1,215 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`Table to match snapshot 1`] = `
+<div>
+  <div
+    class="flex flex-col gap-y-4 md:gap-y-8"
+  >
+    <div
+      class="w-full overflow-auto rounded-lg border border-neutral-800"
+    >
+      <table
+        class="bg-base-300 w-full"
+        id="csv-html-table"
+      >
+        <thead>
+          <tr>
+            <th
+              align="left"
+            >
+              <p
+                class="truncate px-2 py-1 md:px-4 md:py-2"
+                title="header1"
+              >
+                header1
+              </p>
+            </th>
+            <th
+              align="left"
+            >
+              <p
+                class="truncate px-2 py-1 md:px-4 md:py-2"
+                title="header2"
+              >
+                header2
+              </p>
+            </th>
+            <th
+              align="left"
+            >
+              <p
+                class="truncate px-2 py-1 md:px-4 md:py-2"
+                title="header3"
+              >
+                header3
+              </p>
+            </th>
+            <th
+              align="left"
+            >
+              <p
+                class="truncate px-2 py-1 md:px-4 md:py-2"
+                title="header4"
+              >
+                header4
+              </p>
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr
+            class="border-t border-neutral-800"
+          >
+            <td>
+              <p
+                class="truncate px-2 py-1 md:px-4 md:py-2"
+                title="value1"
+              >
+                value1
+              </p>
+            </td>
+            <td>
+              <p
+                class="truncate px-2 py-1 md:px-4 md:py-2"
+                title="value2"
+              >
+                value2
+              </p>
+            </td>
+            <td>
+              <p
+                class="truncate px-2 py-1 md:px-4 md:py-2"
+                title="value3"
+              >
+                value3
+              </p>
+            </td>
+            <td>
+              <p
+                class="truncate px-2 py-1 md:px-4 md:py-2"
+                title="value4"
+              >
+                value4
+              </p>
+            </td>
+          </tr>
+          <tr
+            class="border-t border-neutral-800"
+          >
+            <td>
+              <p
+                class="truncate px-2 py-1 md:px-4 md:py-2"
+                title="value1"
+              >
+                value1
+              </p>
+            </td>
+            <td>
+              <p
+                class="truncate px-2 py-1 md:px-4 md:py-2"
+                title="value2"
+              >
+                value2
+              </p>
+            </td>
+            <td>
+              <p
+                class="truncate px-2 py-1 md:px-4 md:py-2"
+                title="value3"
+              >
+                value3
+              </p>
+            </td>
+            <td>
+              <p
+                class="truncate px-2 py-1 md:px-4 md:py-2"
+                title="value4"
+              >
+                value4
+              </p>
+            </td>
+          </tr>
+          <tr
+            class="border-t border-neutral-800"
+          >
+            <td>
+              <p
+                class="truncate px-2 py-1 md:px-4 md:py-2"
+                title="value1"
+              >
+                value1
+              </p>
+            </td>
+            <td>
+              <p
+                class="truncate px-2 py-1 md:px-4 md:py-2"
+                title="value2"
+              >
+                value2
+              </p>
+            </td>
+            <td>
+              <p
+                class="truncate px-2 py-1 md:px-4 md:py-2"
+                title="value3"
+              >
+                value3
+              </p>
+            </td>
+            <td>
+              <p
+                class="truncate px-2 py-1 md:px-4 md:py-2"
+                title="value4"
+              >
+                value4
+              </p>
+            </td>
+          </tr>
+          <tr
+            class="border-t border-neutral-800"
+          >
+            <td>
+              <p
+                class="truncate px-2 py-1 md:px-4 md:py-2"
+                title="value1"
+              >
+                value1
+              </p>
+            </td>
+            <td>
+              <p
+                class="truncate px-2 py-1 md:px-4 md:py-2"
+                title="value2"
+              >
+                value2
+              </p>
+            </td>
+            <td>
+              <p
+                class="truncate px-2 py-1 md:px-4 md:py-2"
+                title="value3"
+              >
+                value3
+              </p>
+            </td>
+            <td>
+              <p
+                class="truncate px-2 py-1 md:px-4 md:py-2"
+                title="value4"
+              >
+                value4
+              </p>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <button
+      class="btn btn-primary"
+      type="button"
+    >
+      Copy
+    </button>
+  </div>
+</div>
+`;
