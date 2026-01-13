@@ -18,14 +18,14 @@ importers:
   packages/app:
     dependencies:
       '@capacitor/android':
-        specifier: 8.0.0
-        version: 8.0.0(@capacitor/core@8.0.0)
+        specifier: 8.0.1
+        version: 8.0.1(@capacitor/core@8.0.1)
       '@capacitor/core':
-        specifier: 8.0.0
-        version: 8.0.0
+        specifier: 8.0.1
+        version: 8.0.1
       '@capacitor/ios':
-        specifier: 8.0.0
-        version: 8.0.0(@capacitor/core@8.0.0)
+        specifier: 8.0.1
+        version: 8.0.1(@capacitor/core@8.0.1)
       next:
         specifier: 16.1.1
         version: 16.1.1(@babel/core@7.28.5)(babel-plugin-react-compiler@1.0.0)(react-dom@19.2.3(react@19.2.3))(react@19.2.3)
@@ -37,8 +37,8 @@ importers:
         version: 19.2.3(react@19.2.3)
     devDependencies:
       '@capacitor/cli':
-        specifier: 8.0.0
-        version: 8.0.0
+        specifier: 8.0.1
+        version: 8.0.1
       '@tailwindcss/postcss':
         specifier: 4.1.18
         version: 4.1.18
@@ -287,21 +287,21 @@ packages:
   '@bcoe/v8-coverage@0.2.3':
     resolution: {integrity: sha512-0hYQ8SB4Db5zvZB4axdMHGwEaQjkZzFjQiN9LVYvIFB2nSUHW9tYpxWriPrWDASIxiaXax83REcLxuSdnGPZtw==}
 
-  '@capacitor/android@8.0.0':
-    resolution: {integrity: sha512-FrBSvVAC5JuLaYHNyDnwQny0/SYnP+xDQbc/KA4wInmRkMXLDv22fkx9aBJIDrxjuUVd+jsRih4SAt8FgMEzCw==}
+  '@capacitor/android@8.0.1':
+    resolution: {integrity: sha512-Mrk2MFKSg9YA4BPLKm03wwFnGKcvzNBERUTcxjW1NkLrF6YhJwygAT69f/YGopFvOhhqdnDPsuZuASUfmpkSpw==}
     peerDependencies:
       '@capacitor/core': ^8.0.0
 
-  '@capacitor/cli@8.0.0':
-    resolution: {integrity: sha512-v9hEBi69xGxuuZhg55N031bMEenKaPSv71Il8C22VOOH6surDyv/MPeImN0oVfFc7eiklaW3rDFYVz6cmXfJWQ==}
+  '@capacitor/cli@8.0.1':
+    resolution: {integrity: sha512-okCNTsL8FNYrtPNeHWFjWb1S+PwBMhx5wFLhDC0MZOIrOLm+2ynMBtKu3BnR0Nv1hozoHcOCi6SuTF1TrRpb3w==}
     engines: {node: '>=22.0.0'}
     hasBin: true
 
-  '@capacitor/core@8.0.0':
-    resolution: {integrity: sha512-250HTVd/W/KdMygoqaedisvNbHbpbQTN2Hy/8ZYGm1nAqE0Fx7sGss4l0nDg33STxEdDhtVRoL2fIaaiukKseA==}
+  '@capacitor/core@8.0.1':
+    resolution: {integrity: sha512-5UqSWxGMp/B8KhYu7rAijqNtYslhcLh+TrbfU48PfdMDsPfaU/VY48sMNzC22xL8BmoFoql/3SKyP+pavTOvOA==}
 
-  '@capacitor/ios@8.0.0':
-    resolution: {integrity: sha512-gwSn6X4uHYNHlM8zZmVmM1zjEhexxbHpPSSnH1DZkp8o3zdK/RmH8tmDma+3zPZrhhTSrMC7sT24dKTOvV8www==}
+  '@capacitor/ios@8.0.1':
+    resolution: {integrity: sha512-pDxwQtx3n07DBhRKFGvYh4g00ruIsT7HxPm6IIT+tJD8VuTNgwgWYmEOZzfHkG6mZuCe03KqCsuD+aVmg5Rctg==}
     peerDependencies:
       '@capacitor/core': ^8.0.0
 
@@ -2676,8 +2676,8 @@ packages:
     engines: {node: ^12.20.0 || ^14.18.0 || >=16.0.0}
     hasBin: true
 
-  native-run@2.0.2:
-    resolution: {integrity: sha512-Q/mU44zq2khFHYANZJj/9tJk7NGnZv6OQwaG6d4WrVE2m6PO0sauXuw7BhZGEi/SOAFcIJ4H5VKpQngSS3syDg==}
+  native-run@2.0.3:
+    resolution: {integrity: sha512-U1PllBuzW5d1gfan+88L+Hky2eZx+9gv3Pf6rNBxKbORxi7boHzqiA6QFGSnqMem4j0A9tZ08NMIs5+0m/VS1Q==}
     engines: {node: '>=16.0.0'}
     hasBin: true
 
@@ -3827,11 +3827,11 @@ snapshots:
 
   '@bcoe/v8-coverage@0.2.3': {}
 
-  '@capacitor/android@8.0.0(@capacitor/core@8.0.0)':
+  '@capacitor/android@8.0.1(@capacitor/core@8.0.1)':
     dependencies:
-      '@capacitor/core': 8.0.0
+      '@capacitor/core': 8.0.1
 
-  '@capacitor/cli@8.0.0':
+  '@capacitor/cli@8.0.1':
     dependencies:
       '@ionic/cli-framework-output': 2.2.8
       '@ionic/utils-subprocess': 3.0.1
@@ -3841,7 +3841,7 @@ snapshots:
       env-paths: 2.2.1
       fs-extra: 11.3.3
       kleur: 4.1.5
-      native-run: 2.0.2
+      native-run: 2.0.3
       open: 8.4.2
       plist: 3.1.0
       prompts: 2.4.2
@@ -3853,13 +3853,13 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@capacitor/core@8.0.0':
+  '@capacitor/core@8.0.1':
     dependencies:
       tslib: 2.8.1
 
-  '@capacitor/ios@8.0.0(@capacitor/core@8.0.0)':
+  '@capacitor/ios@8.0.1(@capacitor/core@8.0.1)':
     dependencies:
-      '@capacitor/core': 8.0.0
+      '@capacitor/core': 8.0.1
 
   '@cspotcode/source-map-support@0.8.1':
     dependencies:
@@ -6611,7 +6611,7 @@ snapshots:
 
   napi-postinstall@0.3.4: {}
 
-  native-run@2.0.2:
+  native-run@2.0.3:
     dependencies:
       '@ionic/utils-fs': 3.1.7
       '@ionic/utils-terminal': 2.3.5
