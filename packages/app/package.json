@@ -26,7 +26,7 @@
     "prestart": "kill-port 3000",
     "start": "next start",
     "test": "jest",
-    "lint": "eslint"
+    "lint": "eslint . --fix"
   },
   "dependencies": {
     "@capacitor/android": "8.2.0",
