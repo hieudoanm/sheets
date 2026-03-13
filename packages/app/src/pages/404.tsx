@@ -1,4 +1,4 @@
-import { ErrorTemplate } from '@csv/templates/ErrorTemplate';
+import { ErrorTemplate } from '@sheets/templates/ErrorTemplate';
 import { NextPage } from 'next';
 
 const messages = [

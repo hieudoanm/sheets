@@ -1,7 +1,7 @@
 import {
   LandingContent,
   LandingTemplate,
-} from '@csv/templates/LandingTemplate';
+} from '@sheets/templates/LandingTemplate';
 import { NextPage } from 'next';
 
 const content: LandingContent = {

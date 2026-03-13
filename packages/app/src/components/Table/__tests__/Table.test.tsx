@@ -1,6 +1,6 @@
+import { INITIAL_CSV } from '@sheets/constants/app';
 import { render } from '@testing-library/react';
 import { Table } from '../Table';
-import { INITIAL_CSV } from '@csv/constants/app';
 
 describe('Table', () => {
   it('to match snapshot', () => {

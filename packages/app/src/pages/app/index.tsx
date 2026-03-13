@@ -1,6 +1,6 @@
-import { Table } from '@csv/components/Table/Table';
-import { INITIAL_CSV } from '@csv/constants/app';
-import { csv, Format } from '@csv/libs/csv/csv';
+import { Table } from '@sheets/components/Table/Table';
+import { INITIAL_CSV } from '@sheets/constants/app';
+import { csv, Format } from '@sheets/libs/csv/csv';
 import { NextPage } from 'next';
 import { ChangeEvent, useState } from 'react';
 

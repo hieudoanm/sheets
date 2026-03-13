@@ -1,18 +1,18 @@
 {
-  "name": "@csv/app",
+  "name": "@sheets/app",
   "version": "0.0.1",
   "private": true,
-  "description": "CSV (Comma-separated Values)",
+  "description": "Sheets",
   "keywords": [
-    "csv"
+    "sheets"
   ],
-  "homepage": "https://hieudoanm.github.io/csv",
+  "homepage": "https://hieudoanm.github.io/sheets",
   "bugs": {
-    "url": "https://github.com/hieudoanm/csv/issues"
+    "url": "https://github.com/hieudoanm/sheets/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/hieudoanm/csv.git"
+    "url": "git+ssh://git@github.com/hieudoanm/sheets.git"
   },
   "license": "GPL-3.0",
   "author": "hieudoanm <hieumdoan@gmail.com> (https://hieudoanm.github.io)",

@@ -1,5 +1,5 @@
-import { DELIMITER } from '@csv/constants/app';
-import { csv2json } from '@csv/libs/csv/json';
+import { DELIMITER } from '@sheets/constants/app';
+import { csv2json } from '@sheets/libs/csv/json';
 import { FC } from 'react';
 
 const copy = (text: string) => {

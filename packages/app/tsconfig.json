@@ -14,7 +14,7 @@
     "jsx": "react-jsx",
     "incremental": true,
     "paths": {
-      "@csv/*": ["./src/*"]
+      "@sheets/*": ["./src/*"]
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "**/*.mts"],

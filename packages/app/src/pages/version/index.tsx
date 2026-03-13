@@ -1,5 +1,5 @@
 import { GetStaticProps, NextPage } from 'next';
-import { VersionTemplate } from '@csv/templates/VersionTemplate';
+import { VersionTemplate } from '@sheets/templates/VersionTemplate';
 
 type Props = {
   version: string;
