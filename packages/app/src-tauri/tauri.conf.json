@@ -1,8 +1,8 @@
 {
   "$schema": "../node_modules/@tauri-apps/cli/config.schema.json",
-  "productName": "CSV",
+  "productName": "Sheets",
   "version": "0.0.1",
-  "identifier": "io.github.hieudoanm.csv",
+  "identifier": "io.github.hieudoanm.sheets",
   "build": {
     "frontendDist": "../../../docs",
     "devUrl": "http://localhost:3000",
@@ -12,7 +12,7 @@
   "app": {
     "windows": [
       {
-        "title": "CSV",
+        "title": "Sheets",
         "width": 800,
         "height": 600,
         "resizable": true,
