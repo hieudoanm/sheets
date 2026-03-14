@@ -17,16 +17,17 @@
   "license": "GPL-3.0",
   "author": "hieudoanm <hieumdoan@gmail.com> (https://hieudoanm.github.io)",
   "scripts": {
+    "lint": "eslint . --fix",
     "format": "prettier --cache --write .",
     "predev": "rimraf .next && kill-port 3000",
-    "dev": "next dev",
+    "dev": "next dev --turbopack",
     "prebuild": "rimraf .next ../../docs",
     "build": "next build",
     "postbuild": "touch ../../docs/.nojekyll",
     "prestart": "kill-port 3000",
     "start": "next start",
-    "test": "jest",
-    "lint": "eslint . --fix"
+    "pretest": "jest --clearCache",
+    "test": "jest"
   },
   "dependencies": {
     "@capacitor/android": "8.2.0",
