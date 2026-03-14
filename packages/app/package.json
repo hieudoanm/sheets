@@ -21,13 +21,13 @@
     "format": "prettier --cache --write .",
     "predev": "rimraf .next && kill-port 3000",
     "dev": "next dev --turbopack",
+    "pretest": "jest --clearCache",
+    "test": "jest",
     "prebuild": "rimraf .next ../../docs",
-    "build": "next build",
+    "build": "next build --turbopack",
     "postbuild": "touch ../../docs/.nojekyll",
     "prestart": "kill-port 3000",
-    "start": "next start",
-    "pretest": "jest --clearCache",
-    "test": "jest"
+    "start": "next start"
   },
   "dependencies": {
     "@capacitor/android": "8.2.0",
