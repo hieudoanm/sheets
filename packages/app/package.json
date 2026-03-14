@@ -18,7 +18,7 @@
   "author": "hieudoanm <hieumdoan@gmail.com> (https://hieudoanm.github.io)",
   "scripts": {
     "format": "prettier --cache --write .",
-    "predev": "kill-port 3000",
+    "predev": "rimraf .next && kill-port 3000",
     "dev": "next dev",
     "prebuild": "rimraf .next ../../docs",
     "build": "next build",
