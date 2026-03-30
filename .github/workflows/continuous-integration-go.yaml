@@ -1,0 +1,55 @@
+name: Continuous Integration (Go)
+
+on:
+  push:
+    branches:
+      - "master"
+      - "develop"
+      - "hotfix/**"
+      - "feature/**"
+      - "renovate/**"
+      - "dependabot/**"
+
+jobs:
+  ci:
+    name: Continuous Integration (Go)
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: packages/cli
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+      - name: Install Go
+        uses: actions/setup-go@v6
+        with:
+          go-version: "1.26.1"
+          cache-dependency-path: packages/cli/go.sum
+      - name: Install Dependencies
+        run: go mod download
+      - name: Linting CLI
+        run: go vet ./...
+      - name: Test CLI
+        run: go test ./...
+      - name: Build CLI
+        run: go build ./...
+      - name: Delete old platform release
+        if: github.ref == 'refs/heads/master'
+        uses: dev-drprasad/delete-tag-and-release@v1.1
+        with:
+          tag_name: "cli-latest"
+          delete_release: true
+          github_token: ${{ secrets.GH_TOKEN }}
+        continue-on-error: true
+      - name: Create / Update platform release
+        if: github.ref == 'refs/heads/master'
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: "cli-latest"
+          name: Latest CLI Release
+          body: "Automated Build for CLI latest commit on master."
+          prerelease: true
+          files: |
+            packages/cli/bin/sheets
+        env:
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
