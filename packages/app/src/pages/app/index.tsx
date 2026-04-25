@@ -816,7 +816,7 @@ const AppPage: NextPage = () => {
       <header className="navbar bg-base-200 border-base-300 min-h-[52px] flex-shrink-0 gap-3 border-b px-4">
         <div className="navbar-start gap-3">
           <span className="text-base-content text-base font-bold tracking-tight">
-            Lite<span className="text-primary">Dash</span>
+            Sheets
           </span>
           <div className="divider divider-horizontal mx-0 h-5 self-center" />
           <button
